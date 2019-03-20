@@ -1,0 +1,34 @@
+{
+  "name": "zu-starter-theme",
+  "version": "0.0.1",
+  "description": "The starter theme for Zu.",
+  "main": "assets/styles.css",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nowzoo/zu-starter-theme.git"
+  },
+  "keywords": [
+    "zu"
+  ],
+  "author": "NowZoo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nowzoo/zu-starter-theme/issues"
+  },
+  "homepage": "https://github.com/nowzoo/zu-starter-theme#readme",
+  "devDependencies": {
+    "autoprefixer": "^9.5.0",
+    "bootstrap": "^4.3.1",
+    "cssnano": "^4.1.10",
+    "gulp": "^4.0.0",
+    "gulp-postcss": "^8.0.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5",
+    "jquery": "^3.3.1",
+    "node-sass": "^4.11.0",
+    "popper.js": "^1.14.7"
+  }
+}

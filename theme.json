@@ -1,0 +1,20 @@
+{
+  "name": "Zu Starter Theme",
+  "version": "0.0.1",
+  "description": "The starter theme for Zu.",
+  "nodeTemplates": {
+    "home": ["home"],
+    "page": ["page"],
+    "post": ["post"],
+    "collection": ["collection"],
+    "taxonomy": ["taxonomy"],
+    "term": ["term"],
+    "authors": ["authors"],
+    "author": ["author"],
+    "dates": ["dates"],
+    "date": ["date"],
+    "search": ["search"],
+    "sitemap": ["sitemap"],
+    "feed": ["feed"]
+  }
+}

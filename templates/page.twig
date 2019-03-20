@@ -1,0 +1,9 @@
+{% extends '_layout.twig' %}
+{% block headerMeta %}
+  {{ parent() }}
+  <meta property="og:type" content="website" />
+{% endblock %}
+
+{% block main %}
+  {{node.content}}
+{% endblock %}

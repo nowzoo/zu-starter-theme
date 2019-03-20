@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <base href="{{site.absoluteUrl}}">
+    <link rel="stylesheet" href="{{theme.url}}/css/styles.css">
+    <title>{% block pageTitle %}{{site.title}} | {{site.tagline}}{% endblock %}</title>
+    {% block headerMeta %}
+    <meta property="og:url" content="node.absoluteUrl" />
+    <meta property="og:site_name" content="{{site.title}}" />
+    {% endblock %}
+  </head>
+  <body>
+    {% block main %}{% endblock %}
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="{{theme.url}}/js/lib/jquery.slim.min.js"></script>
+    <script src="{{theme.url}}/js/lib/popper.min.js"></script>
+    <script src="{{theme.url}}/js/lib/bootstrap.min.js"></script>
+    {% block scripts %}{% endblock %}
+  </body>
+</html>
